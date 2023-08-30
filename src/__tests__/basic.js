@@ -1,10 +1,5 @@
 import statusCharacter from '../game'
 
-// test('basic test', () => {
-//     let result = 4
-//     expect(result).toBe(4)
-// })
-
 test('game 100', () => {
     const obj = {name: 'маг', health: 100}
     expect(statusCharacter(obj)).toBe('healthy')
