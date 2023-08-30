@@ -1,4 +1,4 @@
-export function statusCharacter(params) {
+export default function statusCharacter(params) {
     let health = params['health']
     if (health > 50) {
         return 'healthy'

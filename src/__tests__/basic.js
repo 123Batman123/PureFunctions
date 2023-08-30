@@ -1,4 +1,4 @@
-import {statusCharacter} from '../game'
+import statusCharacter from '../game'
 
 // test('basic test', () => {
 //     let result = 4
